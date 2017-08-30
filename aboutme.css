@@ -1,0 +1,121 @@
+ body {
+    background-color: DarkMagenta;
+    }
+    
+h1 {
+    font-family: Baloo Bhaijaan, cursive;
+    font-size: 60px;
+    color: Lime;
+}
+
+h3 {
+    font-family:Pacifico, cursive;
+    font-size:80px;
+    color: Lime;
+    Text-align: Center;
+}
+
+#para1 {
+    line-height:200%;
+    font-family:Gloria Hallelujah, cursive;
+    color: Lime;
+    font-size:20px; 
+}
+
+ol {
+    font-size:15px;
+    color:Lime;
+}
+
+ul{
+    font-size:10px;
+    color:Lime;
+}
+
+a {
+   color: OrangeRed; 
+}    
+
+#list1 {
+    text-decoration:underline;
+    font-family:Play, sans-serif;
+    font-size: 30px;
+}
+
+#list2 {
+    text-decoration:underline;
+    font-family:Amatic SC, cursive;
+    font-size:25px;
+}
+
+#list3 {
+    text-decoration:underline;
+    font-family:Sedgwick Ave Display, cursive;
+    font-size:20px;
+}
+
+#list4 {
+    text-decoration:underline;
+    font-family:Inconsolata, monospace;
+    font-size:20px;
+}
+
+#list5 {
+    text-decoration:underline;
+    font-size:15px;
+}
+
+#FQ1,#FQ2,#FQ3,#FQ4 {
+    line-height:125%;
+    font-family:Play, sans-serif;
+    font-size:30px;
+}
+
+#I1,#I2,#I3,#I4{
+    line-height:125%;
+    font-family:Sedgwick Ave Display, cursive;
+    font-size:25px;
+}
+
+#FTG1,#FTG2,#FTG3,#FTG4 {
+    line-height:125%;
+    font-size:20px;
+    font-family:Inconsolata, monospace;
+}
+
+#FA1,#FA2,#FA3,#FA4{
+    line-height:125%;
+    font-size:15px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+ol{
+     list-style-type: lower-alpha;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
