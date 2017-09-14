@@ -23,68 +23,51 @@ h3 {
 }
 
 ol {
-    font-size:15px;
+    font-size:31px;
     color:Lime;
 }
 
 ul{
-    font-size:10px;
+    
+    font-size:30px;
     color:Lime;
+}
+#list1 {
+    text-decoration:underline;
+    font-family:Play, sans-serif;
+
+}
+
+#list2 {
+    text-decoration:underline;
+    font-family:Amatic SC, cursive;
+
+}
+
+#list3 {
+    text-decoration:underline;
+     font-family:Play, sans-serif;
+
+}
+
+#list4 {
+    text-decoration:underline;
+    font-family:Inconsolata, monospace;
+}
+
+#list5 {
+    text-decoration:underline;
+    font-family:Inconsolata, monospace;
 }
 
 a {
    color: OrangeRed; 
 }    
 
-#list1 {
-    text-decoration:underline;
-    font-family:Play, sans-serif;
-    font-size: 30px;
-}
 
-#list2 {
-    text-decoration:underline;
-    font-family:Amatic SC, cursive;
-    font-size:29px;
-}
 
-#list3 {
-    text-decoration:underline;
+li{
      font-family:Play, sans-serif;
-    font-size:28px;
-}
-
-#list4 {
-    text-decoration:underline;
-    font-family:Inconsolata, monospace;
-    font-size:27px;
-}
-
-#list5 {
-    text-decoration:underline;
-    font-size:26px;
-}
-
-#FQ1,#FQ2,#FQ3,#FQ4 {
-    line-height:125%;
-    font-family:Play, sans-serif;
-    font-size:20px;
-}
-
-#I1,#I2,#I3,#I4{
-    line-height:125%;
-     font-family:Play, sans-serif;
-    font-size:20px;
-}
-
-#FTG1,#FTG2,#FTG3,#FTG4 {
-    line-height:125%;
-    font-size:20px;
-    font-family:Inconsolata, monospace;
-}
-
-#FA1,#FA2,#FA3,#FA4{
-    line-height:125%;
     font-size:20px;
 }
 
@@ -140,10 +123,6 @@ img {
     list-style-type: none;
 }
 
-li {
-    list-style-type: circle;
-}
-
 a:link {
     color: red;
 }
@@ -160,6 +139,7 @@ a:active {
     color: blue;
 }
 
-ul:hover {
-    font-size:40px;
+li:hover {
+    font-size:36px;
 }
+
