@@ -45,36 +45,36 @@ a {
 #list2 {
     text-decoration:underline;
     font-family:Amatic SC, cursive;
-    font-size:25px;
+    font-size:29px;
 }
 
 #list3 {
     text-decoration:underline;
-    font-family:Sedgwick Ave Display, cursive;
-    font-size:20px;
+     font-family:Play, sans-serif;
+    font-size:28px;
 }
 
 #list4 {
     text-decoration:underline;
     font-family:Inconsolata, monospace;
-    font-size:20px;
+    font-size:27px;
 }
 
 #list5 {
     text-decoration:underline;
-    font-size:15px;
+    font-size:26px;
 }
 
 #FQ1,#FQ2,#FQ3,#FQ4 {
     line-height:125%;
     font-family:Play, sans-serif;
-    font-size:30px;
+    font-size:20px;
 }
 
 #I1,#I2,#I3,#I4{
     line-height:125%;
-    font-family:Sedgwick Ave Display, cursive;
-    font-size:25px;
+     font-family:Play, sans-serif;
+    font-size:20px;
 }
 
 #FTG1,#FTG2,#FTG3,#FTG4 {
@@ -85,7 +85,7 @@ a {
 
 #FA1,#FA2,#FA3,#FA4{
     line-height:125%;
-    font-size:15px;
+    font-size:20px;
 }
 
 ul{
@@ -97,25 +97,69 @@ ol{
      list-style-type: lower-alpha;
 }
 
+div {
+    margin-left:15%;
+    margin-right:15%;
+}
 
+.header {
+    border:solid red 15px;
+    background-color:blue;
+    padding:0px 30px 30px 30px;
+    margin-top:0;
+    
+}
 
+#spiderman {
+    height:200px;
+    width:50%;
+    margin:auto;
+    display:block;
+}
 
+#indianapolis {
+    display:block;
+    margin:auto;
+    width:60%;
+    
+}
 
+img {
+    border:solid black 3px;
+    display:block;
+    border-radius:50%;
+}
 
+.list {
+    color:green;
+    margin-left:10px;
+}
 
+.topics{
+    font-size: 20px;
+    list-style-type: none;
+}
 
+li {
+    list-style-type: circle;
+}
 
+a:link {
+    color: red;
+}
 
+a:visited {
+    color: green;
+}
 
+a:hover {
+    color: white;
+}
 
+a:active {
+    color: blue;
+}
 
-
-
-
-
-
-
-
-
-
-
+ul:hover {
+    font-size:30px;
+}
