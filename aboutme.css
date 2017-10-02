@@ -1,36 +1,36 @@
-  body {
-    background-color: DarkMagenta;
+   body {
+    background-color: brown;
     }
     
 h1 {
     font-family: Baloo Bhaijaan, cursive;
     font-size: 60px;
-    color: Lime;
+    color:rgb(128, 128, 128);
 }
 
 h3 {
     font-family:Pacifico, cursive;
     font-size:80px;
-    color: Lime;
+    color:rgb(128, 128, 128);
     Text-align: Center;
 }
 
 #para1 {
     line-height:200%;
     font-family:Gloria Hallelujah, cursive;
-    color: Lime;
+    color:rgb(128, 128, 128);
     font-size:20px; 
 }
 
 ol {
     font-size:31px;
-    color:Lime;
+    color:lime;
 }
 
 ul{
     
     font-size:30px;
-    color:Lime;
+    color:lime;
 }
 #list1 {
     text-decoration:underline;
@@ -86,8 +86,8 @@ div {
 }
 
 .header {
-    border:solid red 15px;
-    background-color:blue;
+    border:solid black 3px;
+    background-color:maroon;
     padding:0px 30px 30px 30px;
     margin-top:0;
     
@@ -142,3 +142,37 @@ a:active {
 li:hover {
     font-size:36px;
 }
+
+.active {
+    background-color:brown;
+}    
+
+#NavbarUl {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2.5px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+
+#NavbarList {
+    border-right:1px solid black;
+    float:left;
+}
+
+#NavbarList,#NavbarAnchor {
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 6px 6px;
+    text-decoration: none;
+}
+
+#NavbarList,#NavbarAnchor:hover{
+     background-color:maroon;
+}
+    
