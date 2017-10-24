@@ -1,0 +1,50 @@
+body{
+    background-color:white;   
+}
+
+li {
+    border-right:1px solid black;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:purple;
+}
+    
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2.5px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: maroon;
+}
+    
+.active {
+    background-color:brown;
+}    
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
