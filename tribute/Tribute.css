@@ -1,0 +1,105 @@
+body {
+    background-color: brown;
+    font-family: 'Galada';
+    margin:0%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 35%;
+    background-color:maroon;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color:#000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.MainPage {
+    margin-left:45%;
+}
+
+.Timeline {
+     margin-left:45%;
+}
+
+.Buttons {
+     margin-left:35%;
+}
+
+.Buttonsb {
+     margin-left:35%;
+}
+
+.Picture {
+    overflow: hidden;
+    padding:0% 25% 25% 0%;
+    display:none;
+}
+
+.Timeline {
+    display:none;
+}
+
+.Information {
+    margin-left:45%;
+    margin-bottom:10%;
+    margin-top:5%;
+    display:none;
+}
+
+h1 {
+     font-family: 'Alex Brush';   
+     padding:15%;
+     font-size:500%;
+}   
+
+b {
+    font-family: 'Calligraffitti';
+    font-size:150%;
+}
+
+#picture {
+    position:absolute;
+    top:7.4%;
+    height:55%;
+    width:100%;
+}
+
+#MainPictureOne {
+    margin-top:15%;
+    margin-left:10.5%;
+    height:50%;
+    width:50%;
+}
+
+#MainPictureTwo {
+    margin-left:10.5%;
+    height:50%;
+    width:50%;
+}
+
+#PictureInfo1 {
+    margin-bottom:5%;
+}
+
+#PictureInfo2 {
+    margin-bottom:5%;
+}
