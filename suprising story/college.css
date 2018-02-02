@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(61, 7, 142);
+}
+
+button{
+    margin: 20px;
+}
+
+.jumbotron{
+    background-color: rgb(60, 135, 163);
+    color: rgb(29, 6, 130);
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q1-choice, .q2-choice, .q3-choice, .q4-choice, .q5-choice, .q6-choice, .q7-choice, .q8-choice, .q9-choice, .q10-choice {
+    display:none;
+}
+
+.sidebar{
+    float: left;
+    width: 15%;
+    background-color: rgb(23, 145, 10);
+    color:rgb(8, 2, 89);
+    margin: 0px;
+    
+}
+
+.title{
+    padding-top: 5px;
+}
+
+.content{
+    text-align: center;
+    background: rgb(9, 5, 135);
+    margin: 0px;
+}
+
+.answer{
+    color: rgb(76, 89, 3);
+    font-size: 24px;
+}
+.narrative{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(4, 219, 234);
+}
+
+h2{
+    font-weight:bold;
+}
+
+h3{
+    font-weight:bold;
+}
+
+h4{
+    font-weight:bold;
+}
