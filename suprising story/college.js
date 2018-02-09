@@ -1,4 +1,4 @@
- $(function(){
+  $(function(){
   
     question1();
     
@@ -212,42 +212,5 @@ var question7 = function(){
 };
 
 //QUESTION EIGHT (8)
-
-var question8 = function(){
-    
-    //UPDATE GRAPHICS
-    $("div.narrative, span.q8").html("You ignored the small bump you have caused, Heading to your class. You sit down in your desk, then reach down into your bag, not paying attention to your surroundings. You grab your supplies, and you notice the same letter on your desk.")
-    $(".q8").show();
-    $(".buttons").html("<button class='btn btn-primary q8-trash'> Throw it away </button>")
-    $(".buttons").append("<button class='btn btn-primary q8-slide'> Slide it off desk.</button>")
-    $(".buttons").append("<button class='btn btn-primary q8-open'> Open the letter </button>")
-    
-    //MAKE IT WORK
-    
-    $(".q8-trash").click(function(){
-        
-        //Update sidebar
-        $(".q8-choice").html("Threw Away").show();
-        //Run Question 15
-        question15():
-    });
-    $(".q8-slide").click(function(){
-        
-        //Update sidebar
-        $(".q8-choice").html("slid").show();
-        //Run Question 16
-        question16();
-    });
-    $(".q8-open").click(function(){
-        
-        //Update sidebar
-        $(".q8-choice3").html("opened").show();
-        //Run Question 5
-        question5();
-    });
-    
-}
-
-
 
 
